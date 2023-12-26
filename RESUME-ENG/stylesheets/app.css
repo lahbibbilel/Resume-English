@@ -1,0 +1,100 @@
+:root {
+    --primary: #005088;
+}
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.root-div {
+    margin: 0;
+    padding: 8px;
+}
+a, a:hover{
+    text-decoration: #fff;
+}
+h1 {
+    margin: 20px 0;
+}
+.image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name {
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: #005088;
+}
+.description {
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.contact-nav{
+    margin: 0 30px;
+}
+.icon{
+    height: 20px;
+    width: 20px;
+    bottom: 0;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+hr{
+    border: 0;
+    border-top: .5px solid #999;
+    margin: 20px;
+}
+.skills-title{
+    margin-bottom: 15px;
+}
+.section-title{
+    font-size: 26px;
+    font-weight: bold;
+}
+b{
+    font-weight: bold;
+}
+li.list-group-item > span{
+    font-size: 16px;
+}
+ul.skills{
+    margin-left: 20px;
+    list-style-type: circle;
+}
+.skills li {
+    margin-top: 6px;
+}
+.apps{
+    margin-left: 30px;
+    list-style-type: circle;
+}
+.apps li{
+
+    padding: 4px 0;
+    font-size: 18px;
+}
+.cl0{
+    color: var(--primary);
+}
+#social-media .education-title{
+    margin-bottom: 20px;
+}
+#social-media a{
+    font-size: 35px;
+    margin: 10px;
+}
+/* Remove Hyperlinks */
+@media print {
+    a:link {
+        border-bottom: none !important;
+        text-decoration: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+}
